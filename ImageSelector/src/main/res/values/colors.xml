@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="publish_bg">#f3f3f3</color>
+    <color name="white">#ffffff</color>
+    <color name="blank_light">#333333</color>
+    <color name="line_color">#e1e1e1</color>
+
+    <color name="transparent">#75000000</color>
+    <color name="dialog_i_know_bg">#75222222</color>
+
+    <!-- -->
+    <color name="color_default_loading">#f5f5f5</color>
+
+    <color name="color_a9">#A9A9A9</color>
+
+    <color name="transparent_00">#00000000</color>
+
+    <color name="i_know">#247fff</color>
+
+
+</resources>

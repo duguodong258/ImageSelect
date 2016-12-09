@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main_view"
+    android:background="@drawable/bj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ontouchtest.activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <ImageView
+                    android:id="@+id/iv_hai"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="130dp" />
+                <TextView
+                    android:id="@+id/tv_dianwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:textSize="50sp"
+                    android:gravity="center_horizontal"
+                    android:text="  点  我  呀!"/>
+            </FrameLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_photo"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b6b655"
+                android:scrollbars="none" />
+
+            <ImageView
+                android:background="#535389"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

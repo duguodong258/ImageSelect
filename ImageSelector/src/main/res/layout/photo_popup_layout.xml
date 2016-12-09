@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/btn_pick_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_gray_item_selector"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/publish_video"
+                android:textColor="@color/blank_light"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/video_line"
+                style="@style/line"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_take_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_gray_item_selector"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/take_photo"
+                android:textColor="@color/blank_light"
+                android:textSize="15sp" />
+
+            <View style="@style/line" />
+
+            <Button
+                android:id="@+id/btn_pick_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_gray_item_selector"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/choose_gallery"
+                android:textColor="@color/blank_light"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#f3f3f3" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_gray_item_selector"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/cancel"
+                android:textColor="@color/blank_light"
+                android:textSize="15sp" />
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--选择图片大于9张时 我知道了点击的背景-->
+    <item android:drawable="@drawable/dialog_i_know_bg_pressed_shape" android:state_pressed="true"/>
+    <item android:drawable="@drawable/dialog_i_know_bg_unpressed_shape" android:state_pressed="false"/>
+</selector>

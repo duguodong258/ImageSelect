@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dialog_bg_shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="你最多只能选择9张照片"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_i_know"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dialog_i_know_selector"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_i_know"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/i_know"
+            android:textSize="15sp"
+            android:text="我知道了"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_alignTop="@id/rl_i_know"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#313332"/>
+</RelativeLayout>
