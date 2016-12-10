@@ -1,1 +1,1 @@
-include ':app', ':ImageSelector'
+include ':ImageSelector'
