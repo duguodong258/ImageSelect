@@ -11,8 +11,8 @@
 ![image](https://github.com/duguodong258/ImageSelect/tree/master/screenshots/005.png)
 
 
-*** 关于我
+***
 关于我
 
----啊啊
+---
 啊啊啊啊
