@@ -21,4 +21,4 @@
 |撒的撒地方阿瑟              |案事发时的奋斗啊           |
 |撒的撒地方阿瑟              |案事发时的奋斗啊           |
 |撒大功夫大师              |阿萨德飞说的话个梵蒂冈           |
-| [![Download](https://api.bintray.com/packages/razerdp/maven/BasePopup/images/download.svg) ](https://bintray.com/razerdp/maven/BasePopup/_latestVersion) |
+| [[Download](https://api.bintray.com/packages/razerdp/maven/BasePopup/images/download.svg) ](https://bintray.com/razerdp/maven/BasePopup/_latestVersion) |
